@@ -12,10 +12,14 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "deploy": "vercel --prod"
   },
   "dependencies": {
     "gatsby": "^4.13.1",
+    "gatsby-plugin-image": "^2.14.0",
+    "gatsby-plugin-sharp": "^4.14.0",
+    "gatsby-source-filesystem": "^4.14.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   }
